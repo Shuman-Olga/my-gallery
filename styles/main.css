@@ -1,0 +1,27 @@
+body {
+  font-size: 25px;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-size: 50px;
+}
+
+#gallery {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#gallery img {
+  margin: 10px;
+  width: 500px;
+}
+/*# sourceMappingURL=main.css.map */
